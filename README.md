@@ -53,8 +53,8 @@ Asela
 ### Main Components
 
 - **`generateKey()`**: Generates a random 128-bit AES secret key
-- **`encrypt(SecretKey key, byte[] data)`**: Encrypts data using AES-GCM
-- **`decrypt(SecretKey key, String cipherText)`**: Decrypts Base64-encoded ciphertext
+- **`encrypt(SecretKey key, byte[] data)`**: Encrypts data using AES-GCM and returns Base64-encoded ciphertext
+- **`decrypt(SecretKey key, String cipherText)`**: Decrypts Base64-encoded ciphertext and returns the original plaintext
 
 ### Encryption Process
 
