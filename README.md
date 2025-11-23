@@ -23,19 +23,18 @@ This project provides a working example of secure symmetric encryption and decry
 
 ### Using Command Line
 
-1. Navigate to the project directory:
+1. Navigate to the src directory:
 ```bash
-cd Java-Symmetric-Encryption
+cd Java-Symmetric-Encryption/src
 ```
 
 2. Compile the Java file:
 ```bash
-javac src/AESGCM.java
+javac AESGCM.java
 ```
 
 3. Run the program:
 ```bash
-cd src
 java AESGCM
 ```
 
